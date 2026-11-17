@@ -423,6 +423,11 @@ tmux_conf_urlscan_options="--compact --dedupe"
 # move status line to top
 #set -g status-position top
 
+set -g extended-keys on
+set -g allow-passthrough on
+set -ga update-environment TERM
+set -ga update-environment TERM_PROGRAM
+
 
 # -- tpm -----------------------------------------------------------------------
 
